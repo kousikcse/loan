@@ -34,14 +34,6 @@ CREATE TABLE `collateral` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `collateral`
---
-
-LOCK TABLES `collateral` WRITE;
-/*!40000 ALTER TABLE `collateral` DISABLE KEYS */;
-/*!40000 ALTER TABLE `collateral` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `due_interest`
@@ -58,14 +50,6 @@ CREATE TABLE `due_interest` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `due_interest`
---
-
-LOCK TABLES `due_interest` WRITE;
-/*!40000 ALTER TABLE `due_interest` DISABLE KEYS */;
-/*!40000 ALTER TABLE `due_interest` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `loans`
@@ -88,15 +72,6 @@ CREATE TABLE `loans` (
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `loans`
---
-
-LOCK TABLES `loans` WRITE;
-/*!40000 ALTER TABLE `loans` DISABLE KEYS */;
-INSERT INTO `loans` VALUES (1,1,650000.00,10.50,10,'2023-09-27','active');
-/*!40000 ALTER TABLE `loans` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `members`
@@ -117,15 +92,6 @@ CREATE TABLE `members` (
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `members`
---
-
-LOCK TABLES `members` WRITE;
-/*!40000 ALTER TABLE `members` DISABLE KEYS */;
-INSERT INTO `members` VALUES (1,'KOUSIK','MANDAL','kousikcse@gmail.com','+919933524216','Junbedia',''),(2,'NAREN','GORAI','journey.naren@gmail.com','9832123839','purulia',''),(3,'DHARMADAS','MONDAL','9832891537','latu9832@gmail.com','bankura',''),(4,'TUSAR','KANTI ROY','tusar@gmail.com','9635895325','Kenjakura',''),(5,'JAGANNATH','CHATTERJEE','jc@gmail.com','9836542165','Bankura',''),(6,'AMITAVA','CHATTERJEE','amitava@gmail.com','9832654563','Bankura',''),(7,'VIVEKANANDA ','MAHATO','mahato@gmail.com','78545622152','purulia',''),(8,'BISWAJIT','SING SARDAR','sardar@gmail.com','8545875496','Purulia',''),(9,'JAITA','LAHIRI','lahiri@gmail.com','96584745845','Bankura',''),(10,'BIPAD ','TARAN MAJI','bipad@gmail.com','9865326564','gopinathpur',''),(11,'KAJAL','MONDAL','h@g.c','7878878788','banashuria','');
-/*!40000 ALTER TABLE `members` ENABLE KEYS */;
-UNLOCK TABLES;
 
 --
 -- Table structure for table `payments`
